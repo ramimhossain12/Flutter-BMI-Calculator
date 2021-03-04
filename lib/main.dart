@@ -1,7 +1,10 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:splash/home.dart';
 
 void main(List<String> args) {
+
+  debugDefaultTargetPlatformOverride = TargetPlatform.fuchsia;
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
 
